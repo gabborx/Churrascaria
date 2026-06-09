@@ -3,19 +3,19 @@ package churrascaria;
 public class Produto {
 	String nomeProduto;
 	double preco;
-	double porcao;
+	int quantidade;
 	
 	
-	Produto(String nomeProduto,int porcao, double preco){
+	Produto(String nomeProduto,int quantidade, double preco){
 		this.nomeProduto=nomeProduto;
-		this.porcao=porcao;
+		this.quantidade=quantidade;
 		this.preco=preco;
 	}
 	
 	
 	@Override
 	 public String toString() {
-		 return nomeProduto + " | " + porcao + "g | R$ " + preco;
+		 return nomeProduto + " | " + quantidade + "g | R$ " + preco;
 	    }
 	
 	
