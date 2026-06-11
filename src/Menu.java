@@ -41,8 +41,8 @@ int totalComandas;
 		System.out.println("");
 		System.out.println("1-Picanha			R$45,00");
 		System.out.println("2-Bisteca Suina			R$32,00");
-		System.out.println("3-Frango			R$32,00");
-		System.out.println("4-Linguica Suina		R$32,00");
+		System.out.println("3-Frango			R$22,00");
+		System.out.println("4-Linguica Suina		R$18,00");
 		System.out.println("0-Sair							");
 		System.out.println("Digite a opcao desejada: ");
 
