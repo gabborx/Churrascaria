@@ -59,7 +59,7 @@ public class Comandas {
     double calcularTotal() {
         double total = 0;
         for (int i = 0; i < quantidadeProduto; i++) {
-            total += produto[i].preco;
+            total += produto[i].preco*produto[i].quantidade;
         }
         return total;
     }
